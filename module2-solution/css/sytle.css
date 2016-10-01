@@ -1,0 +1,101 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border-radius: 5px;
+
+}
+
+body {
+	font-family: "Times New Roman", Times, serif;
+
+}
+header{
+	position: relative;
+	height: 100px;
+	width: 100%;
+	/*border: 3px solid green;*/
+}
+
+h1 {
+	position: absolute;
+	width: 100%;
+	top:30px;
+	/*border: 3px solid blue;*/
+	text-align: center;
+}
+
+p{
+	padding: 10px;
+	clear: right;
+}
+
+
+
+.mmenu{
+		background-color: #cccccc;
+		border: 1px solid black;
+
+	}
+
+
+.menuhead{
+	position: relative;
+	text-align: center;
+	float: right;
+	right: -1px;
+	top:  -1px;
+	width: 130px;
+	border: 1px solid black;
+}
+
+.chicken{
+	background-color: #ff5733;
+}
+.beef{
+	background-color: #a989d5;
+}
+.sushi{
+	background-color: #4caab8;
+}
+
+
+@media (min-width: 992px){
+	.phol{
+	float: left;
+	margin: 0;
+	padding: 1px 10px 1px 10px; 
+	width: 33.33%;
+	/*border: 3px solid yellow;*/
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px ){
+	.phol{
+	float: left;
+	margin: 0;
+	padding: 1px 10px 1px 10px; 
+	width: 50%;
+	/*border: 3px solid yellow;*/
+}
+	.phol2{
+	margin: 0;
+	padding: 20px 10px 1px 10px; 
+	width: 100%;
+	/*border: 3px solid yellow;*/
+}
+	
+}
+
+@media (max-width: 767px){
+	
+	.phol{
+	
+	margin: 0;
+	padding: 10px 10px 1px 10px; 
+	width: 100%;
+	/*border: 3px solid yellow;*/
+}
+	
+}
